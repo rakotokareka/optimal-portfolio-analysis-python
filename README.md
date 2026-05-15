@@ -1,14 +1,26 @@
 # Optimal Portfolio Analysis with Python
 
 ## Overview
-This project analyzes financial assets and applies portfolio optimization techniques using Python. The goal is to understand the relationship between risk and return, compare asset performance, and identify an optimized portfolio allocation.
+This project focuses on portfolio optimization using Python. The objective is to analyze financial assets, compare their risk and return, and build an optimized portfolio allocation based on historical stock data.
+
+## Business Context
+Investors often need to understand how different assets perform before making investment decisions. This project demonstrates how Python can be used to support financial analysis by evaluating asset returns, volatility, correlations, and portfolio performance.
 
 ## Objectives
-- Import and prepare financial data
-- Analyze asset returns and volatility
-- Compare portfolio performance
-- Visualize financial insights
-- Build an optimized portfolio based on risk-return analysis
+- Collect and prepare historical stock price data
+- Calculate daily returns and portfolio performance
+- Analyze risk and return of selected assets
+- Visualize price trends and asset behavior
+- Build an optimized portfolio allocation
+- Present insights in a clear and structured way
+
+## Dataset
+The analysis uses historical stock data for selected companies, including:
+
+- Apple Inc. (AAPL)
+- Advanced Micro Devices Inc. (AMD)
+- Microsoft Corporation (MSFT)
+- Oracle Corporation (ORCL)
 
 ## Tools Used
 - Python
@@ -16,22 +28,23 @@ This project analyzes financial assets and applies portfolio optimization techni
 - NumPy
 - Matplotlib
 - Jupyter Notebook
+- GitHub
 
 ## Project Structure
-- `data/`: datasets used for the analysis
-- `notebooks/`: Jupyter notebooks containing the analysis
-- `images/`: charts and visual outputs
-
-## Key Skills Demonstrated
-- Data cleaning
-- Exploratory data analysis
-- Financial data analysis
-- Portfolio optimization
-- Data visualization
-- Python programming
-
-## Project Summary
-This project demonstrates how Python can be used to support investment decision-making through data analysis, visualization, and portfolio optimization techniques.
-
-## Author
-Rakotomalala Hasina Johary
+```text
+optimal-portfolio-analysis-python/
+│
+├── data/
+│   ├── AAPL.csv
+│   ├── AMD.csv
+│   ├── MSFT.csv
+│   └── ORCL.csv
+│
+├── notebooks/
+│   └── portfolio_analysis.ipynb
+│
+├── images/
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
